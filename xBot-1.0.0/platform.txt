@@ -1,5 +1,5 @@
-name=ESP32 Arduino
-version=
+name=xBot Arduino
+version=1.0.0
 
 
 
