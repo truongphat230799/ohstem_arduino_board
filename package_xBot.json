@@ -1,35 +1,29 @@
 {
     "packages": [
       {
-        "name": "esp32",
-        "maintainer": "Espressif Systems",
-        "websiteURL": "https://github.com/espressif/arduino-esp32",
-        "email": "hristo@espressif.com",
+        "name": "xBot",
+        "maintainer": "AITT Masters",
+        "websiteURL": "https://github.com/AITT-VN",
+        "email": "users@gmail.com",
         "help": {
-          "online": "http://esp32.com"
+          "online": "https://ohstem.vn/"
         },
         "platforms": [
           {
-            "name": "esp32",
+            "name": "xBot Board",
             "architecture": "esp32",
-            "version": "1.0.6",
-            "category": "ESP32",
-            "url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.6/esp32-1.0.6.zip",
-            "archiveFileName": "esp32-1.0.6.zip",
-            "checksum": "SHA-256:982da9aaa181b6cb9c692dd4c9622b022ecc0d1e3aa0c5b70428ccc3c1b4556b",
-            "size": "51126662",
+            "version": "1.0",
+            "category": "Contributed",
+            "url": "https://github.com/AITT-VN/xbot_arduino_board/raw/main/xBot-1.0.zip",
+            "archiveFileName": "xBot-1.0.zip",
+            "checksum": "SHA-1:2fd2cbb92bf175a8e8679a3f9b403390e8b93c77",
+            "size": "41468311",
             "help": {
               "online": ""
             },
             "boards": [
               {
-                "name": "ESP32 Dev Module"
-              },
-              {
-                "name": "WEMOS LoLin32"
-              },
-              {
-                "name": "WEMOS D1 MINI ESP32"
+                "name": "xBot Module"
               }
             ],
             "toolsDependencies": [
@@ -47,243 +41,6 @@
                 "packager": "esp32",
                 "name": "mkspiffs",
                 "version": "0.2.3"
-              }
-            ]
-          },
-          {
-            "name": "esp32",
-            "architecture": "esp32",
-            "version": "1.0.5",
-            "category": "ESP32",
-            "url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.5/esp32-1.0.5.zip",
-            "archiveFileName": "esp32-1.0.5.zip",
-            "checksum": "SHA-256:dc5c6c72a127b3171c654f3c3476911d3c2b0ab21affdb7b0f0756c105ca71a7",
-            "size": "49552769",
-            "help": {
-              "online": ""
-            },
-            "boards": [
-              {
-                "name": "ESP32 Dev Module"
-              },
-              {
-                "name": "WEMOS LoLin32"
-              },
-              {
-                "name": "WEMOS D1 MINI ESP32"
-              }
-            ],
-            "toolsDependencies": [
-              {
-                "packager": "esp32",
-                "name": "xtensa-esp32-elf-gcc",
-                "version": "1.22.0-97-gc752ad5-5.2.0"
-              },
-              {
-                "packager": "esp32",
-                "name": "esptool_py",
-                "version": "3.0.0"
-              },
-              {
-                "packager": "esp32",
-                "name": "mkspiffs",
-                "version": "0.2.3"
-              }
-            ]
-          },
-          {
-            "category": "ESP32",
-            "name": "esp32",
-            "url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.4/esp32-1.0.4.zip",
-            "checksum": "SHA-256:d9108bf873933c4e48a3ca401fb51e41b2cc3f98d7c9b9be9881e7ca34bf0efe",
-            "help": {
-              "online": ""
-            },
-            "version": "1.0.4",
-            "architecture": "esp32",
-            "archiveFileName": "esp32-1.0.4.zip",
-            "boards": [
-              {
-                "name": "ESP32 Dev Module"
-              },
-              {
-                "name": "WEMOS LoLin32"
-              },
-              {
-                "name": "WEMOS D1 MINI ESP32"
-              }
-            ],
-            "toolsDependencies": [
-              {
-                "packager": "esp32",
-                "version": "1.22.0-80-g6c4433a-5.2.0",
-                "name": "xtensa-esp32-elf-gcc"
-              },
-              {
-                "packager": "esp32",
-                "version": "2.6.1",
-                "name": "esptool_py"
-              },
-              {
-                "packager": "esp32",
-                "version": "0.2.3",
-                "name": "mkspiffs"
-              }
-            ],
-            "size": "36853332"
-          },
-          {
-            "category": "ESP32",
-            "name": "esp32",
-            "url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.3/esp32-1.0.3.zip",
-            "checksum": "SHA-256:19a30ece8a3ab26ab420c3d5531a9a1c51cb04e421a4f1d86dc072c209060436",
-            "help": {
-              "online": ""
-            },
-            "version": "1.0.3",
-            "architecture": "esp32",
-            "archiveFileName": "esp32-1.0.3.zip",
-            "boards": [
-              {
-                "name": "ESP32 Dev Module"
-              },
-              {
-                "name": "WEMOS LoLin32"
-              },
-              {
-                "name": "WEMOS D1 MINI ESP32"
-              }
-            ],
-            "toolsDependencies": [
-              {
-                "packager": "esp32",
-                "version": "1.22.0-80-g6c4433a-5.2.0",
-                "name": "xtensa-esp32-elf-gcc"
-              },
-              {
-                "packager": "esp32",
-                "version": "2.6.1",
-                "name": "esptool_py"
-              },
-              {
-                "packager": "esp32",
-                "version": "0.2.3",
-                "name": "mkspiffs"
-              }
-            ],
-            "size": "36811826"
-          },
-          {
-            "category": "ESP32",
-            "help": {
-              "online": ""
-            },
-            "url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.2/esp32-1.0.2.zip",
-            "checksum": "SHA-256:c3a5a5050705d41ab205d25a7399e921057b754ef8f883419f58c0c7f08df11c",
-            "version": "1.0.2",
-            "architecture": "esp32",
-            "archiveFileName": "esp32-1.0.2.zip",
-            "boards": [
-              {
-                "name": "ESP32 Dev Module"
-              },
-              {
-                "name": "WEMOS LoLin32"
-              }
-            ],
-            "size": "31174160",
-            "toolsDependencies": [
-              {
-                "packager": "esp32",
-                "version": "1.22.0-80-g6c4433a-5.2.0",
-                "name": "xtensa-esp32-elf-gcc"
-              },
-              {
-                "packager": "esp32",
-                "version": "2.6.1",
-                "name": "esptool_py"
-              },
-              {
-                "packager": "esp32",
-                "version": "0.2.3",
-                "name": "mkspiffs"
-              }
-            ],
-            "name": "esp32"
-          },
-          {
-            "category": "ESP32",
-            "help": {
-              "online": ""
-            },
-            "url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.1/esp32-1.0.1.zip",
-            "checksum": "SHA-256:1a7fa2f9bb0b6b5a20dfea227497f4851dc8b886caf7ecb998f745589c97ed34",
-            "name": "esp32",
-            "version": "1.0.1",
-            "architecture": "esp32",
-            "archiveFileName": "esp32-1.0.1.zip",
-            "size": "31273425",
-            "toolsDependencies": [
-              {
-                "packager": "esp32",
-                "version": "1.22.0-80-g6c4433a-5.2.0",
-                "name": "xtensa-esp32-elf-gcc"
-              },
-              {
-                "packager": "esp32",
-                "version": "2.6.0",
-                "name": "esptool_py"
-              },
-              {
-                "packager": "esp32",
-                "version": "0.2.3",
-                "name": "mkspiffs"
-              }
-            ],
-            "boards": [
-              {
-                "name": "ESP32 Dev Module"
-              },
-              {
-                "name": "WEMOS LoLin32"
-              }
-            ]
-          },
-          {
-            "category": "ESP32",
-            "help": {
-              "online": ""
-            },
-            "url": "https://github.com/espressif/arduino-esp32/releases/download/1.0.0/esp32-1.0.0.zip",
-            "checksum": "SHA-256:94d586174f103e2014be590ab307c5cdda6fa2ec70204c7f121882ace5e05c80",
-            "name": "esp32",
-            "version": "1.0.0",
-            "architecture": "esp32",
-            "archiveFileName": "esp32-1.0.0.zip",
-            "size": "26381887",
-            "toolsDependencies": [
-              {
-                "packager": "esp32",
-                "version": "1.22.0-80-g6c4433a-5.2.0",
-                "name": "xtensa-esp32-elf-gcc"
-              },
-              {
-                "packager": "esp32",
-                "version": "2.3.1",
-                "name": "esptool"
-              },
-              {
-                "packager": "esp32",
-                "version": "0.2.3",
-                "name": "mkspiffs"
-              }
-            ],
-            "boards": [
-              {
-                "name": "ESP32 Dev Module"
-              },
-              {
-                "name": "WEMOS LoLin32"
               }
             ]
           }
