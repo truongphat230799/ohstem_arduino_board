@@ -10,13 +10,13 @@
         },
         "platforms": [
           {
-            "name": "xBot Board",
+            "name": "xBot",
             "architecture": "esp32",
             "version": "1.0",
-            "category": "Contributed",
+            "category": "ESP32",
             "url": "https://github.com/AITT-VN/xbot_arduino_board/raw/main/xBot-1.0.zip",
             "archiveFileName": "xBot-1.0.zip",
-            "checksum": "SHA-1:2fd2cbb92bf175a8e8679a3f9b403390e8b93c77",
+            "checksum": "SHA-256:a7f5bc96b099f62feb564185de1bbd050ded5cc9c2b4840e9927fa087e36319d",
             "size": "41468311",
             "help": {
               "online": ""
