@@ -14,9 +14,9 @@
             "architecture": "esp32",
             "version": "1.0.0",
             "category": "ESP32",
-            "url": "https://github.com/AITT-VN/ohstem_arduino_board/raw/main/xController-1.0.0.zip",
-            "archiveFileName": "xController-1.0.0.zip",
-            "checksum": "SHA-256:96d0a8857267d4729617989164b0b8317c654ea7e0f662f38bd45687a835e2d8",
+            "url": "https://github.com/AITT-VN/ohstem_arduino_board/raw/main/xcontroller.zip",
+            "archiveFileName": "xcontroller.zip",
+            "checksum": "SHA-256:c8ef54e7b406e6cd1164622f2635407423cb8be11a8b78c333e43fc7abe14b3e",
             "size": "49809969",
             "help": {
               "online": "https://github.com/AITT-VN/ohstem_arduino_board"
