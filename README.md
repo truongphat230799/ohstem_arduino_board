@@ -2,7 +2,7 @@
 ## Installation instructions using Arduino IDE Boards Manager
 ### ==========================================================
 
-- Link: `https://raw.githubusercontent.com/AITT-VN/ohstem_arduino_board/package_xcon_index.json`
+- Link: `https://raw.githubusercontent.com/AITT-VN/ohstem_arduino_board/main/package_xcon_index.json`
 
 Từ version 1.6.4 trở đi, Arduino hỗ trợ cài đặt board từ bên thứ 3 thông qua Boards Manager. Bạn có thể cài đặt board xController trong Arduino theo các bước sau:
 
