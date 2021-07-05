@@ -27,7 +27,7 @@ xcontroller.serial.disableRTS=true
 xcontroller.build.mcu=esp32
 xcontroller.build.core=esp32
 xcontroller.build.variant=xcontroller
-xcontroller.build.board=xController
+xcontroller.build.board=xcontroller
 
 xcontroller.build.f_cpu=240000000L
 xcontroller.build.flash_size=4MB
